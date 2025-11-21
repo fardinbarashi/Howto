@@ -4,6 +4,10 @@
 This repository is a step-by-step guide on how to update your **public SSL certificate** for ADFS and WAP servers.
 ⚠️ If you got a farm you proberly need to the same thing on all the servers
 
+Network
+ADFS and Wap Needs to have two ports open
+443 + 49443
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
@@ -126,6 +130,7 @@ See [`LICENSE.txt`](./LICENSE.txt) for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
+
 
 
 
