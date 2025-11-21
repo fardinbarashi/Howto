@@ -96,6 +96,7 @@ netsh http> add sslcert hostnameport=localservice:443 certhash=<cert> appid=<gui
 
 # 🌐 On the WAP Server :
 1. Import the new SSL certificate in the computers MY certificate store.
+⚠️ IF old ADFS ProxyTryst cert is stored in WAP - remove it first!
 2. Configure the WAP service for the new certificate with this cmdlet. 
 ```
 Set-WebApplicationProxySslCertificate -Thumbprint ThumbPrintNumber
@@ -125,6 +126,7 @@ See [`LICENSE.txt`](./LICENSE.txt) for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
+
 
 
 
